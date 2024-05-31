@@ -3,7 +3,7 @@
 `zsh-plugin-conda` is a zsh plugin that automatically loads the conda.
 
 
-## Installation=
+## Installation
 
 ### As an [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh) custom plugin
 Clone `zsh-plugin-conda` into your custom plugins repo.
@@ -17,3 +17,5 @@ Then load as a plugin in your `.zshrc`
 ```
 plugins+=(conda)
 ```
+## Thanks
+[KellieOwczarczak](https://github.com/KellieOwczarczak)
