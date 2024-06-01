@@ -4,6 +4,12 @@
 
 
 ## Installation
+### To avoid conflict with another python version manager ex. pyenv
+by default is not autoload base conda virtual environment, you can set `CONDA_AUTO_ACTIVATE_BASE` to true in `.zprofile` to make it autoload.
+
+```
+CONDA_AUTO_ACTIVATE_BASE=true
+```
 
 ### As an [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh) custom plugin
 Clone `zsh-plugin-conda` into your custom plugins repo.
